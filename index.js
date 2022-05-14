@@ -25,11 +25,11 @@ app.use(logErrors);
 app.use(boomErrorHandler);
 app.use(errorHandler);
 
-/* app.get('/',(req,res) =>{
+ app.get('/',(req,res) =>{
   res.json({
     message: 'inicio'
   })
-}) */
+})
 
 
 app.listen(port, () =>{
